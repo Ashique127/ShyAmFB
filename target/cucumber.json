@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successfully open Amazon and FaceBook one after another",
+        "description": "",
+        "id": "multiple-browser-open-and-check-accessability;successfully-open-amazon-and-facebook-one-after-another",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2724716700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch chrome browser",
+            "match": {
+              "location": "StepDeffAMFB.launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5647491200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to Amazon India",
+            "match": {
+              "location": "StepDeffAMFB.navigate_to_Amazon_India()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4574806200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "search for \"Nike shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nike shoes",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDeffAMFB.search_for(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4893969700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "naviage back and page tittle print out",
+            "match": {
+              "location": "StepDeffAMFB.naviage_back_and_page_tittle_print_out()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3079621400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "open FaceBook home page",
+            "match": {
+              "location": "StepDeffAMFB.open_FaceBook_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 401464800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter username and password and click login button",
+            "match": {
+              "location": "StepDeffAMFB.enter_username_and_password_and_click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1265533500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "close FaceBook and quit",
+            "match": {
+              "location": "StepDeffAMFB.close_FaceBook_and_quit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@ShyAMFB"
+          }
+        ]
+      }
+    ],
+    "name": "Multiple browser open and check accessability",
+    "description": "",
+    "id": "multiple-browser-open-and-check-accessability",
+    "keyword": "Feature",
+    "uri": "amfbsearch.feature"
+  }
+]
